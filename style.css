@@ -1,0 +1,43 @@
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+header {
+	padding: 11em 15% 8em 15%;
+	background: #1b1919;
+}
+
+h1 {
+	font-size: 4em;
+}
+
+header h1 {
+	text-align: center;
+	margin: 0 auto 1em auto;
+	color: #f6f6f6;
+	font-weight: 900;
+}
+
+.botao-caixa {
+	font-size: 2em;
+	text-align: center;
+	background: #ffa41b;
+	width: 40%;
+	margin: 0 auto;
+	padding: 0.5em;
+	border: none;
+	border-radius: 100px;
+	transition: 0.5s all;
+}
+
+.botao-caixa:hover {
+	background: darkorange;
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+.botao {
+	text-decoration: none;
+	color: #f6f6f6;
+}
