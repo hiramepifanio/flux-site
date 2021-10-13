@@ -1,7 +1,22 @@
 
+/*
+*
+* Cores
+* Branco jelo	#f6f6f6
+* Laranja		#ffa41b
+* Blackeilson	#1b1919
+*
+*/
+
 body {
 	font-family: "Montserrat", sans-serif;
 }
+
+/*
+*
+* CSS do Título
+*
+*/
 
 .titulo {
 	padding: 11em 15% 8em 15%;
@@ -40,4 +55,39 @@ h1 {
 .botao {
 	text-decoration: none;
 	color: #f6f6f6;
+}
+
+/*
+*
+* CSS do Sore Nós
+*
+*/
+
+.sobre {
+	padding: 3em 15% 8em 15%;
+	background: #f6f6f6;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+.sobre h2 {
+	text-align: center;
+	color: #1b1919;
+	margin: 0 0 1em;
+}
+
+.sobre-logo {
+	width: 30%;
+	float: left;
+	margin: 0 15px;
+}
+
+p {
+	font-size: 1.2em;
+	margin: 0 0 1em;
+}
+
+.sobre p {
 }
