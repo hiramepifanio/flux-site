@@ -18,7 +18,7 @@ body {
 *
 */
 
-.titulo {
+.headline {
 	padding: 11em 15% 8em 15%;
 	background: #1b1919;
 }
@@ -27,7 +27,7 @@ h1 {
 	font-size: 4em;
 }
 
-.titulo h1 {
+.headline h1 {
 	text-align: center;
 	margin: 0 auto 1em auto;
 	color: #f6f6f6;
