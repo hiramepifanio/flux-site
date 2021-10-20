@@ -1,11 +1,13 @@
 
-/*
+/**
 *
 * Cores
 * Branco jelo	#f6f6f6
 * Laranja		#ffa41b
 * Blackeilson	#1b1919
 *
+* wireframe
+* https://wireframe.cc/qND7h0
 */
 
 body {
@@ -90,4 +92,57 @@ p {
 }
 
 .sobre p {
+}
+
+i, em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.sobre-frase-destacada {
+	font-size: 2em;
+}
+
+/*
+*
+* CSS da seção serviços
+*
+*/
+
+.servicos {
+	padding: 8em 15% 8em 15%;
+	background: linear-gradient(#f6f6f6, #ffa41b);
+}
+
+.servicos h2 {
+	text-align: center;
+	padding: 0 0 1em;
+}
+
+.servicos li {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin: 0 9%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 10px;
+	background: #f6f6f6;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+.servicos h3 {
+	text-align: center;
+	padding: 0 0 1em;
+}
+
+#pacote-gold h3 {
+	padding: 0.5em 0 1.5em;
 }
